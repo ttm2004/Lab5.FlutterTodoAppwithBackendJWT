@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import 'register_screen.dart';
-import 'todo_list_screen.dart';
+import 'dashboard_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -28,14 +28,15 @@ class _LoginScreenState extends State<LoginScreen> {
     if (!_formKey.currentState!.validate()) return;
 
     final auth = context.read<AuthProvider>();
-    final success =
+    final token =
         await auth.login(_emailCtrl.text.trim(), _passwordCtrl.text);
 
     if (!mounted) return;
 
-    if (success) {
+    if (token != null) {
+      // Navigate đến Dashboard với token (theo protocoderspoint)
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => const TodoListScreen()),
+        MaterialPageRoute(builder: (_) => DashboardScreen(token: token)),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
