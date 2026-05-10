@@ -1,0 +1,14 @@
+# ASP.NET Core build artifacts
+TodoApi/bin/
+TodoApi/obj/
+
+# SQLite database (generated at runtime)
+TodoApi/*.db
+TodoApi/*.db-shm
+TodoApi/*.db-wal
+
+# .NET user secrets
+TodoApi/appsettings.Development.json
+
+# Kotlin compiler sessions
+**/.kotlin/
