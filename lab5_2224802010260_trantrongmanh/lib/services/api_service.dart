@@ -5,7 +5,7 @@ import 'package:jwt_decoder/jwt_decoder.dart';
 
 class ApiService {
   // Android Emulator: 10.0.2.2 | Thiết bị thật: IP máy tính
-  static const String baseUrl = 'http://10.0.2.2:5000/api';
+  static const String baseUrl = 'http://192.168.1.7:5000/api';
   static const String _tokenKey = 'token';
 
   // ─── Token helpers (SharedPreferences + JwtDecoder) ───────────────────────

@@ -3,9 +3,15 @@
 **Môn học:** Phát triển Ứng dụng Di động Đa nền tảng  
 **Sinh viên:** Trần Trọng Mạnh  
 **MSSV:** 2224802010260  
-**Lớp:** [Tên lớp]  
-**Giảng viên hướng dẫn:** [Tên giảng viên]  
 **Ngày nộp:** 10/05/2026  
+
+---
+
+## Video Demo
+
+[![Xem video demo](https://drive.google.com/thumbnail?id=1izMBkDXEZvb4yK9KrObtv09uYgxoqRJG&sz=w640)](https://drive.google.com/file/d/1izMBkDXEZvb4yK9KrObtv09uYgxoqRJG/view?usp=drive_link)
+
+👉 [Nhấn vào đây để xem video demo](https://drive.google.com/file/d/1izMBkDXEZvb4yK9KrObtv09uYgxoqRJG/view?usp=drive_link)
 
 ---
 
