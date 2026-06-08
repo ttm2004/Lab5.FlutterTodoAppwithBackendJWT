@@ -3,6 +3,7 @@
 **Môn học:** Phát triển Ứng dụng Di động Đa nền tảng  
 **Sinh viên:** Trần Trọng Mạnh  
 **MSSV:** 2224802010260  
+**Lớp:** D22CNTT04  
 **Ngày nộp:** 10/05/2026  
 
 ---
